@@ -76,10 +76,13 @@
     // e outra com seu sobrenome e some as mesmas
     var sobrenome = 'Sousa';
     var nomeCompleto = nome + ' ' + sobrenome;
+
+    var nomeCompleto = `${nome} ${sobrenome}`; // Template String
     console.log(nomeCompleto);
 
     // Coloque a seguinte frase em uma variável: It's time
-    
+    var alerta = 'It\'s time';
+    var alerta = `It's time`; 
 
     // Verifique o tipo da variável que contém o seu nome
     var nome = 'Fredson';
