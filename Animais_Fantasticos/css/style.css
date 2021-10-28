@@ -166,6 +166,13 @@ body {
   font-family: Helvetica, Arial;
 }
 
+.dados li a {
+  color: #222;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  font-family: Helvetica, Arial;
+}
+
 .dados li::before {
   content: '';
   display: inline-block;
