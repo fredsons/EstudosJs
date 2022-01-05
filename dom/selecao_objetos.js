@@ -1,5 +1,5 @@
 /*
-    DOM PARA INICIANTES
+    * DOM PARA INICIANTES
 
     * ID
     getElementById seleciona e retorna elementos do DOM
