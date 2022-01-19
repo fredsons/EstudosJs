@@ -10,6 +10,9 @@
       rel="stylesheet"
     />
     <title>Animais Fantásticos</title>
+    <Script>
+      document.documentElement.className += ' js';
+    </Script>
   </head>
   <body>
     <nav class="menu">
@@ -23,7 +26,7 @@
 
     <section class="grid-section animais" id="animais">
       <h1 class="titulo">Animais Fantásticos</h1>
-      <ul class="animais-lista">
+      <ul class="animais-lista js-tabmenu" >
         <li>
           <img src="images/imagem1.jpg" />
         </li>
@@ -43,7 +46,7 @@
           <img src="images/imagem6.jpg" />
         </li>
       </ul>
-      <div class="animais-descricao">
+      <div class="animais-descricao js-tabcontent">
         <section>
           <h2>Raposa</h2>
           <p>
@@ -225,5 +228,7 @@
     <footer class="copy">
       <p>Todos os direitos reservados.</p>
     </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
