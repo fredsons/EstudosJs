@@ -1,7 +1,7 @@
 /*
-// ARRAYS E LOOPS
+/ ARRAYS E LOOPS
 
-// ARRAY
+/ ARRAY
 
 * É um grupo de valores geralmente relacionados. Servem para guardarmos diferentes valores em uma unica variavel.
 
